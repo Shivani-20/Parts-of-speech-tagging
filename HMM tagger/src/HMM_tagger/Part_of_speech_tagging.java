@@ -69,7 +69,7 @@ private static HashMap<String,String> part_of_speech_tags = new HashMap<String,S
 						input_emission_probability();
 	}
 	
-	public static void input_emission_probability()
+	public static void input_emission_probability()  // state likelihoods of words
 	{
 		JTextField field[][] = new JTextField[number_of_tags][number_of_words];
 		JLabel Probability[][] = new JLabel[number_of_tags][number_of_words];
