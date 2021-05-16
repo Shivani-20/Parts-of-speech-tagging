@@ -82,7 +82,8 @@ Consists of table having 2 column, one is the "word" and another shows "POS tag"
 ## Future changes: 
 
 I would like to display the viterbi or vector values.
-I would like to take a big paragraph input from a file and assign tags to it
+I would like to take a big paragraph input from a file and assign tags to it.
+I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
 
 <br/>
 
