@@ -68,22 +68,14 @@ I have tried to implement the above algorithm using Java.
 
 Inputs:
 
--words of a sentence separated by commas
--tags separated by commas
--state likelihood probabilities or the probability that a word can be a noun or a pronoun
--tag transition probabilites, meaning what is the probability that a verb will be followed by a noun or pronoun etc
+1. words of a sentence separated by commas
+2. tags separated by commas
+3. state likelihood probabilities or the probability that a word can be a noun or a pronoun
+4. tag transition probabilites, meaning what is the probability that a verb will be followed by a noun or pronoun etc
 
 Output:
 
 Consists of table having 2 column, one is the "word" and another shows "POS tag" for that word
-
-<br/>
-
-## Future changes: 
-
-I would like to display the viterbi or vector values.
-I would like to take a big paragraph input from a file and assign tags to it.
-I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
 
 <br/>
 
@@ -128,3 +120,11 @@ I would like to do use a dictionary API to check if the word is relevant or is a
 ###then word distribution
 
 ![](result.png)
+
+<br/>
+
+## Future changes: 
+
+..*I would like to display the viterbi or vector values.
+..*I would like to take a big paragraph input from a file and assign tags to it.
+..*I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
