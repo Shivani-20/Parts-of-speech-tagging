@@ -1,29 +1,24 @@
 ## Table of contents:
 
 * [Background](#B)
-<a name="B"></a>
 
 * [Task](#T)
-<a name="T"></a>
 
 * [Scope](#S)
-<a name="S"></a>
 
 * [Class diagram](#C)
-<a name="C"></a>
 
 * [Activity diagram](#A)
-<a name="A"></a>
 
 * [Output](#O)
-<a name="O"></a>
 
 * [Future changes](#F)
-<a name="F"></a>
 
 
 <br/>
 
+
+<a name="B"></a>
 ## Background
 
 Parts of speech (also known as POS) and named entities are useful clues to sentence structure and meaning. Knowing whether a word is a noun or a verb tells us about likely neighboring words (nouns in English are preceded by determiners and adjectives, verbs by nouns) and syntactic structure (verbs have dependency links to nouns), making part-of speech tagging a key aspect of parsing. 
@@ -34,6 +29,7 @@ Penn Treebank part-of-speech tags:
 
 <br/>
 
+<a name="T"></a>
 ## Task
 
 Part-of-speech tagging: mapping from input words x1, x2,..., xn to output POS tags y1, y2,..., yn 
@@ -88,6 +84,7 @@ Calculating viterbi values and path probabilities to find correct tags associate
 
 <br/>
 
+<a name="S"></a>
 ## Scope
 
 I have tried to implement the above algorithm using Java. 
@@ -105,18 +102,21 @@ Consists of table having 2 column, one is the "word" and another shows "POS tag"
 
 <br/>
 
+<a name="C"></a>
 ## Class diagram
 
 ![](IMAGES/Class_diagram.png)
 
 <br/>
 
+<a name="A"></a>
 ## Activity diagram
 
 ![](IMAGES/Activity_diagram.png)
 
 <br/>
 
+<a name="O"></a>
 ## Output
 
 First system asks for words of the sentence
@@ -149,6 +149,7 @@ Then POS tag of each word as output
 
 <br/>
 
+<a name="F"></a>
 ## Future changes
 
 * I would like to display the viterbi or vector values.
