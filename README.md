@@ -1,29 +1,33 @@
-# Parts-of-speech-tagging
-
-Class diagram:
+## Class diagram:
 
 ![](Class_diagram.png)
 
-Activity diagram:
+<br/>
+
+## Activity diagram:
 
 ![](Activity_diagram.png)
 
-Processing starts, first system asks for words of the sentence
+<br/>
+
+## Processing starts, 
+
+###first system asks for words of the sentence
 
 ![](sentence.png)
 
-then for tags
+###then for tags
 
 ![](tags.png)
 
-then word probabilties
+###then word probabilties
 
 ![](state_likelihoods.png)
 
-then tag probabilities
+###then tag probabilities
 
 ![](transition_probabilities.png)
 
-then output
+###then word distribution
 
 ![](result.png)
