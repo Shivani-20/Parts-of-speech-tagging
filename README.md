@@ -6,6 +6,8 @@ Penn Treebank part-of-speech tags:
 
 ![](tag_list.png)
 
+<br/>
+
 ## Task: 
 
 Part-of-speech tagging: mapping from input words x1, x2,..., xn to output POS tags y1, y2,..., yn 
@@ -18,6 +20,8 @@ A hidden Markov model (HMM) allows us to talk about both observed events hidden 
 
 ![](components.png)
 
+<br/>
+
 ### HMM Tagging as decoding:
 
 For any model, such as an HMM, that contains hidden variables, the task of determining the hidden variables sequence corresponding to the sequence of observations decoding is called decoding. More formally,
@@ -26,11 +30,15 @@ Decoding: Given as input an HMM λ = (A,B) and a sequence of observations O = o1
 
 ![](repre.png)
 
+<br/>
+
 ### Viterbi algorithm which makes HMM tagging possible:
 
 ![](viterbi.png)
 
 ![](notations.png)
+
+<br/>
 
 ### Example:
 
@@ -52,9 +60,29 @@ Calculating viterbi values and path probabilities to find correct tags associate
 
 ![](whats_happening.png)
 
+<br/>
+
 ## Scope
 
-I 
+I have tried to implement the above algorithm using Java. 
+
+Inputs:
+
+-words of a sentence separated by commas
+-tags separated by commas
+-state likelihood probabilities or the probability that a word can be a noun or a pronoun
+-tag transition probabilites, meaning what is the probability that a verb will be followed by a noun or pronoun etc
+
+Output:
+
+Consists of table having 2 column, one is the "word" and another shows "POS tag" for that word
+
+<br/>
+
+## Future changes: 
+
+I would like to display the viterbi or vector values.
+I would like to take a big paragraph input from a file and assign tags to it
 
 <br/>
 
