@@ -30,7 +30,7 @@ Parts of speech (also known as POS) and named entities are useful clues to sente
 
 Penn Treebank part-of-speech tags:
 
-![](tag_list.png)
+![](IMAGES/tag_list.png)
 
 <br/>
 
@@ -38,13 +38,13 @@ Penn Treebank part-of-speech tags:
 
 Part-of-speech tagging: mapping from input words x1, x2,..., xn to output POS tags y1, y2,..., yn 
 
-![](work.png)
+![](IMAGES/work.png)
 
 ### Using HMM Part-of-Speech Tagging:
 
 A hidden Markov model (HMM) allows us to talk about both observed events hidden Markov model (like words that we see in the input) and hidden events (like part-of-speech tags) that we think of as causal factors in our probabilistic model. An HMM is specified by the following components:
 
-![](components.png)
+![](IMAGES/components.png)
 
 <br/>
 
@@ -54,15 +54,15 @@ For any model, such as an HMM, that contains hidden variables, the task of deter
 
 Decoding: Given as input an HMM λ = (A,B) and a sequence of observations O = o1,o2,...,oT , find the most probable sequence of states Q = q1q2q3 ...qT.
 
-![](repre.png)
+![](IMAGES/repre.png)
 
 <br/>
 
 ### Viterbi algorithm which makes HMM tagging possible:
 
-![](viterbi.png)
+![](IMAGES/viterbi.png)
 
-![](notations.png)
+![](IMAGES/notations.png)
 
 <br/>
 
@@ -74,17 +74,17 @@ tags = NNP,MD,VB,JJ,NN,RB,DT
 
 Transition probabilities computed from Wall Streeet Journal corpus:
 
-![](wsj.png)
+![](IMAGES/wsj.png)
 
 Each a[i,j] represents the probability for transitioning between the hidden states (part-of-speech tags).
 
 Observation likelihoods of words given tags:
 
-![](obs.png)
+![](IMAGES/obs.png)
 
 Calculating viterbi values and path probabilities to find correct tags associated with the word: 
 
-![](whats_happening.png)
+![](IMAGES/whats_happening.png)
 
 <br/>
 
@@ -107,13 +107,13 @@ Consists of table having 2 column, one is the "word" and another shows "POS tag"
 
 ## Class diagram
 
-![](Class_diagram.png)
+![](IMAGES/Class_diagram.png)
 
 <br/>
 
 ## Activity diagram
 
-![](Activity_diagram.png)
+![](IMAGES/Activity_diagram.png)
 
 <br/>
 
@@ -121,31 +121,31 @@ Consists of table having 2 column, one is the "word" and another shows "POS tag"
 
 First system asks for words of the sentence
 
-![](sentence.png)
+![](IMAGES/sentence.png)
 
 <br/>
 
 Then for tags
 
-![](tags.png)
+![](IMAGES/tags.png)
 
 <br/>
 
 Then word probabilties
 
-![](state_likelihoods.png)
+![](IMAGES/state_likelihoods.png)
 
 <br/>
 
 Then tag probabilities
 
-![](transition_probabilities.png)
+![](IMAGES/transition_probabilities.png)
 
 <br/>
 
 Then POS tag of each word as output
 
-![](result.png)
+![](IMAGES/result.png)
 
 <br/>
 
