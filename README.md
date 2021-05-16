@@ -93,31 +93,31 @@ Consists of table having 2 column, one is the "word" and another shows "POS tag"
 
 ## Output: 
 
-###first system asks for words of the sentence
+First system asks for words of the sentence
 
 ![](sentence.png)
 
 <br/>
 
-###then for tags
+Then for tags
 
 ![](tags.png)
 
 <br/>
 
-###then word probabilties
+Then word probabilties
 
 ![](state_likelihoods.png)
 
 <br/>
 
-###then tag probabilities
+Then tag probabilities
 
 ![](transition_probabilities.png)
 
 <br/>
 
-###then word distribution
+Then POS tag of each word as output
 
 ![](result.png)
 
@@ -125,6 +125,6 @@ Consists of table having 2 column, one is the "word" and another shows "POS tag"
 
 ## Future changes: 
 
-..*I would like to display the viterbi or vector values.
-..*I would like to take a big paragraph input from a file and assign tags to it.
-..*I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
+*I would like to display the viterbi or vector values.
+*I would like to take a big paragraph input from a file and assign tags to it.
+*I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
