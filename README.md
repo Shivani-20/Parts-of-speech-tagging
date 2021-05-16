@@ -125,6 +125,6 @@ Then POS tag of each word as output
 
 ## Future changes: 
 
-*I would like to display the viterbi or vector values.
-*I would like to take a big paragraph input from a file and assign tags to it.
-*I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
+* I would like to display the viterbi or vector values.
+* I would like to take a big paragraph input from a file and assign tags to it.
+* I would like to do use a dictionary API to check if the word is relevant or is a slang which cannot be tagged
